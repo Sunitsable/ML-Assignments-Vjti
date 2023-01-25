@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            background-color: aquamarine;
+            display:flex;
+            flex-direction: row;
+            height:50vh;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+           /* align-items: center;*/
+            align-content: center;
+             
+        }
+        .box1{
+            background-color: red;
+            width:150px;
+            height: 180px;
+            border:2px solid black;
+            
+        }
+        .box2{
+            background-color: skyblue;
+            width:150px;
+            height: 180px;
+            border:2px solid red;
+            
+        }
+        .box3{
+            background-color: indigo;
+            width:180px;
+            height: 180px;
+            border:2px solid red;
+            
+
+        }
+        .box4{
+            background-color: blue;
+            width:150px;
+            height: 180px;
+            border:2px solid red;
+            
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis aliquid amet accusantium harum porro at natus molestias, sit doloribus?</div>
+    <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum obcaecati autem vero asperiores eum aliquam.</div>
+    <div class="box3">Lorem ipsum dolor sit amet.</div>
+    <div class="box4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, recusandae!</div>
+</div>
+    
+</body>
+</html>

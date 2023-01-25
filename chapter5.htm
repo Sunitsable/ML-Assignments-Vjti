@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin:0;
+        }
+        
+        li{
+            display:inline;
+            font-size: 30px;
+        
+            
+            
+
+        }
+        header{
+            background-color: black;
+            color:white;
+            /*position:sticky;*/              /*when u keep top 0 then only the sticky property works
+            /*top:0;*/
+            
+        }
+        .container{
+            background-color:red;
+            width:100vw;                       /*and when position is kept relative then only the z-index property works */
+            height:100vh;
+            position:relative;
+            z-index: 2;
+        
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </header>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing.
+    </div>
+</body>
+</html>

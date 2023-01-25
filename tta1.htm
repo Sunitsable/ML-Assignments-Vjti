@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tta 1</title>
+    <style>
+        .container{
+            background-color: blue;
+            height:455px;
+        }
+        .box{
+            border:2px solid black;
+            display:inline-block;
+            /*transform:translate(134px,56px);*/
+           /* transform-origin:0;
+            transform:rotateY(45deg);*/
+            
+        }
+        img{
+            border:2px solid black;
+            width:156px;
+            height:250px;
+            /*transition-property: width;
+            transition-duration: 3s;
+            transition-timing-function: ease-in;
+            transition-delay: 5s;*/
+             /*5s after hovering the transition-duration time and the property will work*/
+             transition-duration: 3s;;
+             transition:width 2s ease-in  height 2s ease-out; 
+            @keyframes harry {
+                
+            }
+           
+            
+        }
+        img:hover{
+           width:56px;
+           height:70px;
+        }
+        @media screen and (max-width:800px){
+            body{
+                background-color: aqua;
+            }
+            
+        }
+
+            
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1657089342845-c73adbddc99a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" >
+            <button id="btn">toggle</button>
+        </div>
+        
+    </div>
+</body>
+</html>
